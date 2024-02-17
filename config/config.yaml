@@ -1,0 +1,11 @@
+defaults:
+  - _self_  # Override values within this file with values in selected files.
+  - override hydra/hydra_logging: disabled  
+  - override hydra/job_logging: disabled 
+
+debug: False
+
+hydra:  
+  output_subdir: null  
+  run:  
+    dir: .
