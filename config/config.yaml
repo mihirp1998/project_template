@@ -4,6 +4,7 @@ defaults:
   - override hydra/job_logging: disabled 
 
 debug: False
+lr: 1e-3
 
 hydra:  
   output_subdir: null  
