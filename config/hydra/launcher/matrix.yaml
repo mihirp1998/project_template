@@ -2,7 +2,7 @@ defaults:
   - submitit_slurm
 signal_delay_s: 120
 timeout_min: 4320
-partition: kate_reserved
+partition: all
 gres: gpu:1
 cpus_per_task: 8
 mem_gb: 40
